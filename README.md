@@ -139,7 +139,7 @@ Live Weather & Event APIs
 
 ### 1. Clone the repo
 ```bash
-git clone https://github.com/tracychanty/smart-commute-recommendation-system.git
+git clone https://github.com/tracychanty/smart-commute-prediction-recommendation-system.git
 cd smart-commute-recommendation-system
 ```
 
