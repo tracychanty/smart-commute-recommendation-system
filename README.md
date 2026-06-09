@@ -96,11 +96,16 @@ Live Weather & Event APIs
 
 <br><br>
 
+</details>
+
+<details>
 <summary>Feature Engineering</summary>
 
 <img src="Images/feature_engineering.png" width="900">
 
 <br><br>
+
+</details>
 
 <summary>Model Summary</summary>
 
