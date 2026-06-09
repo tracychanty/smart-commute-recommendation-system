@@ -11,6 +11,7 @@ and provides personalized commute recommendations using live weather and event d
 - Journey recommendation platforms
 
 [Notebook](transport_delay_model.ipynb)
+
 [Application](transport_delay_app.py)
 
 ---
@@ -86,15 +87,39 @@ Live Weather & Event APIs
 
 ## Screenshots
 
-![EDA Dashboard](Images/eda_dashboard.png)
+<details>
+<summary>EDA Dashboard</summary>
 
-![Feature Engineering](Images/feature_engineering.png)
+<br>
 
-![Model Summary](Images/feature_engineering.png)
+<img src="Images/eda_dashboard.png" width="900">
 
-![SHAP Explainability](Images/shap_summary.png)
+<br><br>
 
-![Interactive CLI App](Images/app_demo1.png)
+<summary>Feature Engineering</summary>
+
+<img src="Images/feature_engineering.png" width="900">
+
+<br><br>
+
+<summary>Model Summary</summary>
+
+<img src="Images/model_summary.png" width="900">
+
+<br><br>
+
+<summary>SHAP Explainability</summary>
+
+<img src="Images/shap_summary.png" width="900">
+
+<br><br>
+
+<summary>Interactive CLI App</summary>
+
+<img src="Images/app_demo1.png" width="900">
+<img src="Images/app_demo2.png" width="900">
+
+</details>
 
 ---
 
