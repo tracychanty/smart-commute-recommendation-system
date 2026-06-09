@@ -99,7 +99,7 @@ Live Weather & Event APIs
 </details>
 
 <details>
-<summary>Feature Engineering</summary>
+<summary>Feature Visualization</summary>
 
 <img src="Images/feature_engineering.png" width="900">
 
@@ -107,18 +107,25 @@ Live Weather & Event APIs
 
 </details>
 
+<details>
 <summary>Model Summary</summary>
 
 <img src="Images/model_summary.png" width="900">
 
 <br><br>
 
+</details>
+
+<details>
 <summary>SHAP Explainability</summary>
 
 <img src="Images/shap_summary.png" width="900">
 
 <br><br>
 
+</details>
+
+<details>
 <summary>Interactive CLI App</summary>
 
 <img src="Images/app_demo1.png" width="900">
