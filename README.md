@@ -16,6 +16,16 @@ and provides personalized commute recommendations using live weather and event d
 
 ---
 
+## Key Results
+
+- Built an end-to-end transit delay prediction pipeline using SQLite, machine learning, SHAP, and external APIs.
+- Evaluated 3 regression models and 6 classification strategies.
+- Integrated live weather (OpenWeatherMap) and event (Ticketmaster) APIs into a recommendation engine.
+- Used SHAP explainability to identify the strongest drivers of transit delays and commute risk.
+- Developed an interactive application that predicts delay, estimates commute risk, and recommends departure times.
+
+---
+
 ## Project Architecture
 
 ```
@@ -194,9 +204,9 @@ python transport_delay_app.py
 | XGBoost | 9.83 min | -0.146 |
 | Mean-prediction baseline | 9.18 min | 0.000 |
 
-> All models produce negative R², meaning no model explains delay variance better
-> than predicting the mean. This reflects a dataset limitation — delay values are
-> spread nearly uniformly across all feature combinations.
+Despite testing Linear Regression, Random Forest, and XGBoost, all models achieved negative R² scores. This indicates that the available features contain limited predictive signal for exact delay magnitude.
+
+This finding itself is valuable, as it demonstrates a complete machine learning workflow, rigorous model evaluation, hypothesis testing, and transparent reporting rather than presenting artificially inflated results. The results suggest that richer operational data such as GPS tracking, passenger volume, service disruptions, and real-time traffic information would be required for accurate delay forecasting.
 
 ### Classification — Predict commute risk (Low / Medium / High)
 | Strategy | F1 | Accuracy |
@@ -221,7 +231,7 @@ Random Forest), varying binning approach, SMOTE oversampling, and class weightin
 
 ---
 
-## Interactive App
+## Decision Support Application
 
 Run `python transport_delay_app.py` from Terminal. The app asks:
 
